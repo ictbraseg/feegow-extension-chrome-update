@@ -2,9 +2,10 @@
 <gupdate xmlns="http://www.google.com/update2/response" protocol="2.0">
   <app appid="bejnmkjigheclpffnkcoppkmieeonobm">
     <updatecheck 
-      codebase="https://github.com/ictbraseg/feegow-extension-chrome-update.git"
+      codebase="https://github.com/ictbraseg/feegow-extension-chrome-update/raw/db8a0449b57974528402225eb62acedb2e8d19aa/plugin_feegow_v4.crx"
       version="4.0"/>
   </app>
 </gupdate>
+
 
 
