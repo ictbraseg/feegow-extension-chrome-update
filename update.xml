@@ -3,7 +3,8 @@
   <app appid='afgogflebbdholgomeoecnbbphlgnieh'>
     <updatecheck 
       codebase='https://ictbraseg.github.io/feegow-extension-chrome-update/plugin_feegow_v4.crx'
-      version='4.01' />
+      version='5.0' />
   </app>
 </gupdate>
+
 
