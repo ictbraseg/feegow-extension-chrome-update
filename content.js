@@ -1,1 +1,1 @@
-alert("Meu sexto teste");
+alert("Meu primeiro teste GHub");
