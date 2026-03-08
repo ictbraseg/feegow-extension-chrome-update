@@ -1,1 +1,1 @@
-alert("Meu primeiro updater");
+alert("Meu segundo updater");
