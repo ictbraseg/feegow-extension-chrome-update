@@ -71,7 +71,7 @@ function atualizarContadorPacientes() {
 }
 
 
-// ================================= BLOQUEIA PAGAMENTOS COM CAIXA FECHADO ================================
+// ================================= CONTADOR DE PROPOSTAS ================================
 let ultimaQuantidade = -1;
 
 const atualizarContador = () => {
