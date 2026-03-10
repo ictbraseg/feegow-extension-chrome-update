@@ -91,7 +91,7 @@ const atualizarContador = () => {
             contador.className = "contador-propostas";
             contador.style.marginLeft = "8px";
             contador.style.fontWeight = "bold";
-            contador.style.color = "blue";
+            contador.style.color = "black";
             contador.textContent = `Total: ${quantidade}`;
 
             titulo.appendChild(contador);
