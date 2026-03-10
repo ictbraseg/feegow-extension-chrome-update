@@ -14,7 +14,9 @@ INSTRUÇÕES DE USO
 
 7 - Depois disso, a extensão já estará carregada e funcionando.
 
-Se o plugin já tever instalado, ele será atualizado, caso necessário. Talvez seja necessário apenas reiniciar o Chrome.
+Se for uma atualização, basta executar o script .bat, que atualizará automaticamente. O script verifica automaticamente se a versão do computador é diferente da versão do Github
+
+Talves seja necessario reiniciar o Chrome
 
 
 
