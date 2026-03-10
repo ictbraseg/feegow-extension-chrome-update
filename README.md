@@ -1,6 +1,6 @@
 INSTRUÇÕES DE USO
 
-1- Copiar o arquivo install_update_feegow_extension_chrome.bat para a pasta de inicialização, que é possível ser aberta através de Win + r -> shell:startup. Isso permitirá que toda vez que a máquina for inicializada, o plugin seja atualizado, se for o caso.
+1- Copiar o arquivo install_update_feegow_extension_chrome_vXX.bat para a pasta de inicialização, que é possível ser aberta através de Win + r -> shell:startup. Isso permitirá que toda vez que a máquina for inicializada, o plugin seja atualizado, se for o caso.
 
 2 - Clicar com o botão direito no arquivo install_update_feegow_extension_chrome.bat já dentro da pasta de inicialização e clicar em Enviar para -> Área de trabalho (criar atalho). 
 
