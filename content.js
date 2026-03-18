@@ -72,41 +72,41 @@ function atualizarContadorPacientes() {
 
 
 // ================================= CONTADOR DE PROPOSTAS ================================
-// let ultimaQuantidade = -1;
+let ultimaQuantidade = -1;
 
-// const atualizarContador = () => {
-//     const quantidade = document.querySelectorAll("i.far.fa-edit").length;
+const atualizarContador = () => {
+    const quantidade = document.querySelectorAll("i.far.fa-edit").length;
 
-//     if (quantidade === ultimaQuantidade) return;
-//     ultimaQuantidade = quantidade;
+    if (quantidade === ultimaQuantidade) return;
+    ultimaQuantidade = quantidade;
 
-//     const titulos = document.querySelectorAll("span.panel-title");
+    const titulos = document.querySelectorAll("span.panel-title");
 
-//     titulos.forEach(titulo => {
-//         if (titulo.textContent.includes(" Propostas Geradas")) {
-//             const contadorAntigo = titulo.querySelector(".contador-propostas");
-//             if (contadorAntigo) contadorAntigo.remove();
+    titulos.forEach(titulo => {
+        if (titulo.textContent.includes(" Propostas Geradas")) {
+            const contadorAntigo = titulo.querySelector(".contador-propostas");
+            if (contadorAntigo) contadorAntigo.remove();
 
-//             const contador = document.createElement("span");
-//             contador.className = "contador-propostas";
-//             contador.style.marginLeft = "8px";
-//             contador.style.fontWeight = "bold";
-//             contador.style.color = "blue";
-//             contador.textContent = `Total: ${quantidade}`;
+            const contador = document.createElement("span");
+            contador.className = "contador-propostas";
+            contador.style.marginLeft = "8px";
+            contador.style.fontWeight = "bold";
+            contador.style.color = "blue";
+            contador.textContent = `Total: ${quantidade}`;
 
-//             titulo.appendChild(contador);
-//         }
-//     });
-// };
+            titulo.appendChild(contador);
+        }
+    });
+};
 
-// const observer = new MutationObserver(() => {
-//     atualizarContador();
-//     atualizarContadorPacientes();
-// });
+const observer = new MutationObserver(() => {
+    atualizarContador();
+    atualizarContadorPacientes();
+});
 
-// observer.observe(document.body, {
-//     childList: true,
-//     subtree: true
-// });
+observer.observe(document.body, {
+    childList: true,
+    subtree: true
+});
 
-// atualizarContadorPacientes();
+atualizarContadorPacientes();
