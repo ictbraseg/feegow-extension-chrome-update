@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Feegow - Ajustes Internos",
+  "version": "6.0.1",
+  "description": "Ajustes Feegow",
+  "content_scripts": [
+    {
+      "matches": ["https://app.feegow.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
